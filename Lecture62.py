@@ -11,8 +11,9 @@ while True:
     if(menuName.lower() == "exit"):
         break
     else:
-        menuPrice = int(input("Price :"))
+        menuPrice = input("Price :")
         menuList.append(menuName)
         priceList.append(float(menuPrice))
 
 showBill()
+
